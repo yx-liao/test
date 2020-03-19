@@ -33,5 +33,5 @@ jobs:
           echo test, and deploy your project.
       - name: say hello !
         run: echo Hello !
-      -name: git log
-        run: git log
+      -name: ls
+        run: ls
