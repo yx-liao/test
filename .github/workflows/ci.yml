@@ -35,3 +35,5 @@ jobs:
         run: echo Hello !
       - name: ls
         run: ls
+      - name: git log
+        run: git log
