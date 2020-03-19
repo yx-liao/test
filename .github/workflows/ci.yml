@@ -42,7 +42,7 @@ jobs:
           git config --local user.name $USER_NAME
           git config --local user.email $USER_EMAIL
           git status
-          git remote add origin https://${{secrets.commit_secret}}@github.com/yx-liao/test.git
+          git remote add origin https://${{secrets.commit_secret}}@github.com/$GITHUB_REPOSITORY.git
           git checkout -b gh-pages
           git add .
           git commit -m "deploy to github pages"
