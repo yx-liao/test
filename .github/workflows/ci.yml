@@ -27,3 +27,6 @@ jobs:
 
       - name: npm run build
         run: npm run build
+
+      - name: git branch
+        run: git branch
