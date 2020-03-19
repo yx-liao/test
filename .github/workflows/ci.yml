@@ -44,7 +44,7 @@ jobs:
           git status
           git remote add origin https://github.com/yx-liao/test.git
           git checkout -b gh-pages
-          git add -A
+          git add --all
           git commit -m "deploy to github pages"
           git push -f origin gh-pages
           echo deploy ok !
