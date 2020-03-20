@@ -22,6 +22,7 @@ function App({
   // console.log(data);
   // let str = data;
   console.log("app render");
+  console.log("777777");
   return (
     <div
       className="App"
