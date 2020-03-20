@@ -24,6 +24,7 @@ function App({
   console.log("app render");
   console.log("777777");
   console.log("888888");
+  console.log("666666");
   return (
     <div
       className="App"
