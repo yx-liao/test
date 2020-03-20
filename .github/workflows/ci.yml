@@ -28,9 +28,9 @@ jobs:
       - name: cache node dependencies
         id: cache
         uses: actions/cache@v1
-          with:
-            path: ~/.npm
-            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
       - name: npm install
         if: steps.cache.outputs.cache-hit != 'true'
